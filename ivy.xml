@@ -2,7 +2,7 @@
 <ivy-module version="2.0"
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
-    <info organisation="org.movealong" module="junit-guice" revision="1.0.0"/>
+    <info organisation="org.movealong" module="junit-guice" revision="1.0.1"/>
 
     <configurations>
         <conf name="default" extends="runtime" description="Distributed artifacts"/>
@@ -21,7 +21,7 @@
 
     <dependencies>
         <dependency org="com.google.inject" name="guice" rev="3.0" conf="runtime->default"/>
-        <dependency org="junit" name="junit" rev="4.6" conf="runtime->default"/>
+        <dependency org="junit" name="junit" rev="4.8.2" conf="runtime->default"/>
     </dependencies>
 
 </ivy-module>
